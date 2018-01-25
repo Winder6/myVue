@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <p>姓名：{{user.name}}</p>
+    <div>
+        <p>hello</p>
+    </div>
+    <p>年龄：{{user.age}}</p>
+</div>
+
+<!--<script src="js/vue.js"></script>-->
+<script src="js/vue3.js"></script>
+<script>
+    // let app = new Vue({
+    //     el: '#app',
+    //     data: {
+    //         user: {
+    //             name: 'youngwind',
+    //             age: 25
+    //         }
+    //     }
+    // })
+    //
+    //
+    // let app2={
+    //     user:{
+    //         name:"hello"
+    //     }
+    // }
+    // let a = 'user.name';
+    // console.log(app2[a]);
+
+    // let a={
+    //     b:{
+    //         parent:null
+    //     }
+    // };
+    //
+    //
+    //
+    // a.b.parent=a;
+    //
+    // console.log(a);
+
+    let a={
+        x:1
+    };
+    let b={
+        y:2
+    };
+    a.b=b;
+    b.a=a;
+    console.log(a);
+    console.log(b);
+</script>
+
+</body>
+</html>
